@@ -89,37 +89,37 @@
 
 ## 3. Modeling:
 ### 3-1. 데이터 로드 
-![img.png](img.png)
+![img.png](img/readme_img.png)
 #### RUL 계산 추론 
 - time_in_cycles 를 바탕으로 train_FD001 에서 RUL 을 추론할 수 있다.
 - 우선 각 엔진의 마지막 사이클을 고장 사이클로 간주하고 각 엔진의 최대 사이클을 추론한다.
 - 이후 최대 사이클에서 해당 칼럼의 사이클을 빼면 RUL 을 구할 수 있다.
 ### 3-2. EDA
 #### Data Cleaning
-![img_1.png](img_1.png)
+![img_1.png](img/readme_img1.png)
 - Heatmap 을 활용하여 상관 계수 확인 및 일정한 독립 변수 제거
-![img_2.png](img_2.png)
+![img_2.png](img/readme_img2.png)
 
 #### Moving Average
-![img_3.png](img_3.png)
+![img_3.png](img/readme_img3.png)
 
 #### Z-Score
-![img_4.png](img_4.png)
+![img_4.png](img/readme_img4.png)
 
 ### 3-3. Modeling
-![img_7.png](img_7.png)
+![img_7.png](img/readme_img7.png)
 
 <br>
 
 ## 4. Evaluation: 
 ### 4-1. Score Function
-![img_5.png](img_5.png)
+![img_5.png](img/readme_img5.png)
 - 회귀분석의 특성상 실제값과 예측값의 차가 적을 수록 정확하므로 점수가 낮을 수록 더 좋은 모델이다.
 
 <br>
 
 ### 4-2. Score
-![img_6.png](img_6.png)
+![img_6.png](img/readme_img6.png)
 - R2 Score: 0.81
 - Score: 581.76
 
